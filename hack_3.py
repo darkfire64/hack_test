@@ -8,5 +8,5 @@ def fn_hack_3():
     a = 10
     b = 3
     result = (0, 0, 0, 0, 0)
-    #...
+    result = (a + b, a - b, a * b, b // b, a // b)
     return result
