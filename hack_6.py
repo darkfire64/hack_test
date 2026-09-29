@@ -13,5 +13,12 @@ def fn_hack_6():
     b = 3
     c = 4
     result = ""
-    #...
+    if a == b and a == c:
+        result = "equilatero"
+    elif a == b or a == c or b == c:
+        result = "isosceles"
+    elif a != b and a != c and b!= c:
+        result = "escaleno"
+    else:
+        result = "invalido"
     return result

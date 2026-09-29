@@ -6,5 +6,6 @@ output => [2, 4, 6]
 
 def fn_hack_9():
     result = [1, 2, 3, 4, 5, 6]
-    #...
+    result = [x for x in result if x % 2 == 0]
+    print(result)
     return result
